@@ -50,5 +50,83 @@
                 "main_frame"
             ]
         }
+    },
+    {
+        "id": 5,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "camsoda.com",
+            "resourceTypes": [
+                "main_frame"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "theporndude.com",
+            "resourceTypes": [
+                "main_frame"
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "chaturbate.com",
+            "resourceTypes": [
+                "main_frame"
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "onlyfans.com",
+            "resourceTypes": [
+                "main_frame"
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "livejasmin.com",
+            "resourceTypes": [
+                "main_frame"
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "stripchat.com",
+            "resourceTypes": [
+                "main_frame"
+            ]
+        }
     }
 ]

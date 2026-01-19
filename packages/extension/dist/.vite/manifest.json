@@ -1,25 +1,30 @@
 {
   "../../../../../../@crx/manifest": {
-    "file": "assets/crx-manifest.js-sPFmvO58.js",
+    "file": "assets/crx-manifest.js-BvE8Zj1W.js",
     "name": "crx-manifest.js",
     "src": "../../../../../../@crx/manifest",
     "isEntry": true
+  },
+  "__commonjsHelpers-CrISbUvu.js": {
+    "file": "assets/_commonjsHelpers-CrISbUvu.js",
+    "name": "_commonjsHelpers"
   },
   "_index-Cfz1CtDu.js": {
     "file": "assets/index-Cfz1CtDu.js",
     "name": "index"
   },
   "index.html": {
-    "file": "assets/index.html-D8VPypz9.js",
+    "file": "assets/index.html-Jvajxxmp.js",
     "name": "index.html",
     "src": "index.html",
     "isEntry": true,
     "imports": [
+      "__commonjsHelpers-CrISbUvu.js",
       "_index-Cfz1CtDu.js"
     ]
   },
   "src/background.ts": {
-    "file": "assets/background.ts-ZQvTwKFl.js",
+    "file": "assets/background.ts-BGnsW_Bx.js",
     "name": "background.ts",
     "src": "src/background.ts",
     "isEntry": true,
@@ -28,9 +33,18 @@
     ]
   },
   "src/content.ts": {
-    "file": "assets/content.ts-BGeGd7Rl.js",
+    "file": "assets/content.ts-wCQk4B8N.js",
     "name": "content.ts",
     "src": "src/content.ts",
     "isEntry": true
+  },
+  "src/offscreen.html": {
+    "file": "assets/offscreen-Df9DknmE.js",
+    "name": "offscreen",
+    "src": "src/offscreen.html",
+    "isEntry": true,
+    "imports": [
+      "__commonjsHelpers-CrISbUvu.js"
+    ]
   }
 }

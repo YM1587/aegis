@@ -20,7 +20,15 @@
         "strict": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "noFallthroughCasesInSwitch": true
+        "noFallthroughCasesInSwitch": true,
+        "paths": {
+            "@aegis/shared": [
+                "../shared/src/index.ts"
+            ],
+            "@aegis/ai-core": [
+                "../ai-core/src/index.ts"
+            ]
+        }
     },
     "include": [
         "src"

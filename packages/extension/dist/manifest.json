@@ -13,7 +13,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/content.ts-BGeGd7Rl.js"
+        "assets/content.ts-wCQk4B8N.js"
       ],
       "matches": [
         "<all_urls>"
@@ -25,7 +25,8 @@
     "storage",
     "activeTab",
     "scripting",
-    "declarativeNetRequest"
+    "declarativeNetRequest",
+    "offscreen"
   ],
   "host_permissions": [
     "<all_urls>"
@@ -45,7 +46,7 @@
         "<all_urls>"
       ],
       "resources": [
-        "assets/content.ts-BGeGd7Rl.js"
+        "assets/content.ts-wCQk4B8N.js"
       ],
       "use_dynamic_url": false
     }
