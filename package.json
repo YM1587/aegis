@@ -1,0 +1,15 @@
+{
+  "name": "aegis-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "dev": "pnpm -r run dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}
