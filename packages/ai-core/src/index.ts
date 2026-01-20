@@ -3,6 +3,9 @@ import { pipeline, env } from '@xenova/transformers';
 // Skip local check for chrome extension environment
 env.allowLocalModels = false;
 env.useBrowserCache = true;
+// Disable multi-threading to avoid blob worker CSP issues in Manifest V3
+env.backends.onnx.wasm.numThreads = 1;
+env.backends.onnx.wasm.proxy = false;
 
 export class ToxicityDetector {
     private threshold: number;
